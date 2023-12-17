@@ -1,5 +1,23 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
-    <body></body>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>ROCK PAPER SCISSORS</title>
+    </head>
+    <body>
+        <h1>ROCK PAPER SCISSORS</h1>
+        <div class="container">
+            <div><div id="opponent" class="pick"></div><label>OPPONENT</label></div>
+            <p>VS</p><div><div id="player" class="pick"></div><label>PLAYER</label></div>
+        </div>
+        <div>
+            <p>Choose your option</p>
+            <button class="button" value="rock">ROCK</button>
+            <button class="button" value="paper">PAPER</button>
+            <button class="button" value="scissors">SCISSORS</button>
+        </div>
+        <p id="outcome"></p>
+        <script src="./script.js"></script>
+    </body>
 </html>
